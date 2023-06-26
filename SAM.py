@@ -27,7 +27,7 @@ def show_anns(anns):
         img[m] = color_mask
     ax.imshow(img)
 
-image = cv2.imread('Applications/MaximeM/image1.jpeg')
+image = cv2.imread('image1.jpeg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 plt.figure(figsize=(20,20))
